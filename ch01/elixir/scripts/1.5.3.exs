@@ -1,0 +1,6 @@
+x = Nx.tensor([1.0, 2.0, 3.0], type: :f64)
+y = Nx.tensor([2.0, 4.0, 6.0], type: :f64)
+dbg(Nx.add(x, y))
+dbg(Nx.subtract(x, y))
+dbg(Nx.multiply(x, y))
+dbg(Nx.divide(x, y))
